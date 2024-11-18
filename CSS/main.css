@@ -7,11 +7,6 @@
   transition: 0.3s;
 }
 
-.card:hover {
-  padding-left: 64px;
-  padding-right: 64px;
-}
-
 .orange {
   background-color: #e28625;
   color: #e28625;
@@ -94,6 +89,11 @@
     width: 920px;
     border-radius: 8px;
     overflow: hidden;
+  }
+
+  .card:hover {
+    padding-left: 64px;
+    padding-right: 64px;
   }
 
   .description {

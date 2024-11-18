@@ -4,6 +4,12 @@
 
 .card {
   padding: 48px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 .orange {
